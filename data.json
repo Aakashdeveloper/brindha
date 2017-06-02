@@ -1,0 +1,19 @@
+javascript object notation
+
+
+{
+	name:"brinda",
+	class:"node",
+	city:"ny",
+	lname:"brinda"
+},{
+	name:"brinda",
+	class:"node",
+	city:"ny",
+	lname:"brinda"
+},{
+	name:"brinda",
+	class:"node",
+	city:"ny",
+	lname:"brinda"
+}
