@@ -16,12 +16,9 @@ var nav = [{
         }, {
           link: '/author',
           Text: 'Author'
-        },{
-          link:'/contact',
-          Text:'Contact'
         }];
 
-var bookRouter = require('./src/routes/bookRoutes');
+var bookRouter = require('./src/routes/bookRoutes')(nav);
 
 app.use('/Books', bookRouter)
 
